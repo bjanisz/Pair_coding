@@ -1,0 +1,71 @@
+header{
+    background-color: grey;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+} 
+
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+#menu {
+    height: 40px;
+    width: 80px;
+    border-style: solid;
+    border-width:1px;
+    border-color: black;
+    border-radius: 50px;
+}
+
+#menu:hover {
+    background-color: aqua;
+}
+
+#login {
+    height: 40px;
+    width: 80px;
+    border-style: solid;
+    border-width:1px;
+    border-color: black;
+    border-radius: 20px 20px 0 0;
+}
+
+#login:hover {
+    background-color:blueviolet;
+}
+
+section {
+    background-color: grey;
+    padding: 10px;
+    border-style: solid;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 0px;
+    width: auto;
+    height: 500px;
+}
+
+footer {
+    background-color: grey;
+    padding: 10px;
+    border-style: solid;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 0px;
+    width: auto;
+    height: 40px;
+}
