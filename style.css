@@ -3,6 +3,7 @@ header{
     padding: 10px;
     border-style: solid;
     border-width: 2px;
+    position: f;
 }
 
 .container {
@@ -10,14 +11,16 @@ header{
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+    height: auto;
+    width: auto;
+    justify-content: space-between;
 } 
 
 
 #navigation {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style-type: none;
-
 }
 
 #menu {
@@ -30,21 +33,22 @@ header{
 }
 
 #menu:hover {
-    background-color: aqua;
+    background-color: rgb(74, 196, 145);
+    cursor: pointer;
 }
 
 #login {
     height: 40px;
-    width: 80px;
+    width: 50px;
     border-style: solid;
     border-width:1px;
     border-color: black;
-    border-radius: 20px 20px 0 0;
+    border-radius: 5px;
 }
 
-#login:hover {
+/* #login:hover {
     background-color:blueviolet;
-}
+} */
 
 #article {
     background-color: grey;
@@ -55,7 +59,8 @@ header{
     border-right-width: 2px;
     border-top-width: 0px;
     width: auto;
-    height: 500px;
+    height: auto;
+
 }
 
 footer {
@@ -67,37 +72,172 @@ footer {
     border-right-width: 2px;
     border-top-width: 0px;
     width: auto;
-    height: 40px;
+    height: auto;
 }
 
 .row {
     border: solid 2px;
+    border-color: aquamarine;
+    border-radius: 30px;
     display: flex; 
     flex-direction: column;
     padding: 10px;
+    margin: 30px;
+    height: auto;
+    width: 30vh;
 }
 .container2 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+    margin: 30px;
+    justify-content: space-evenly;
 }
 
 #contact {
     background-color: grey;
-    padding: 10px;
+    padding: 30px;
     border-style: solid;
     border-left-width: 2px;
     border-bottom-width: 2px;
     border-right-width: 2px;
     border-top-width: 0px;
     width: auto;
-    height: 300px;
+    height: auto;
     display: flex;
     justify-content: center;
 }
 
-.photo  {
-    width: 20vw;
-    height: 20vw;
+#contact-now-text {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+
 }
+
+.photo  {
+    width: 10vw;
+    height: 10vw;
+    display: flex;
+    align-self: center;
+}
+
+#Check {
+    height: 50px;
+    width: 100px;
+    border-style: solid;
+    border-width:1px;
+    border-color: aquamarine;
+    border-radius: 50px;
+    background-color: gray;
+    align-self: center;
+}
+
+#Check:hover {
+    background-color: rgb(74, 196, 145);
+    cursor: pointer;
+}
+
+.info-contact-social {
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.info-contact-social img {
+    height: 13px;
+}
+
+.info-contact-social:hover {
+    background-color: aquamarine;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.contact-us-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 200px;
+}
+
+.newsletter-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Email-footer {
+    height: 50px;
+    width: 200px;
+    border-width:1px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#Subscribe {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+}
+
+#Subscribe:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    border-style: solid;
+    padding: 10px;
+    border-color: aquamarine;
+    width: 200px;
+    height: auto;
+    align-items: center;
+}
+
+.contact-content {
+    border: 1px;
+    border-style: solid;
+    margin: 5px;
+    width: auto;
+    height: auto;
+    border-color:aquamarine;
+}
+
+.contact-content-text-area {
+    resize: none;
+    border: 1px;
+    border-style: solid;
+    margin: 5px;
+    width: auto;
+    height: auto;
+    border-color:aquamarine;
+}
+

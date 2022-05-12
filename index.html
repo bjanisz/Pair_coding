@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
-        <title>Strona z częściami komputerowymi</title>
+        <title>Strona ze sprzętem komputerowym</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -14,13 +14,23 @@
                 <div>
                     <ul id="navigation">
                         <li><button id="menu">Home</button></li>
-                        <li><button id="menu">About</button></li>
+                        <li>
+                            <a href="#about-us-footer">
+                            <button id="menu">About</button> 
+                            </a>
+                        </li>
                         <li><button id="menu">Computer</button></li>
                         <li><button id="menu">Laptop</button></li>
                         <li><button id="menu">Products</button></li>
-                        <li><button id="menu">Contact us</button></li>
-                        <li><button id="login">Login</button></li>
+                        <li>
+                            <a href="#contact-us-footer">
+                            <button id="menu">Contact us</button>
+                            </a>
+                        </li>
                     </ul>
+                </div>
+                <div>
+                    <a href="#"><img src="login.png" alt="login-logo" id="login" /></a>
                 </div>
                 </div>
             </div>
@@ -30,40 +40,69 @@
                 <div class="row">
                     <img class="photo" src="thr.png"/>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                    <button id="Check">Check our computers</button>
                 </div>
                 <div class="row">
                     <img class="photo" src="thr1.png"/>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                    <button id="Check">Check our laptops</button>
                 </div>
                 <div class="row">
                     <img class="photo" src="thr2.png"/>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                    <button id="Check">Check our products</button>
                 </div>
             </div>
-            
-        
         </section>
         <section id="contact">
             <div>
                 <div> 
-                    <h1>CONTACT US</h1>
+                    <h1 id="contact-now-text">CONTACT NOW</h1>
                 </div>
-                <form>
-                    <label for="name"></label><br>
-                    <input type="text" id="Name" Name="Name" value="Name">
-                    <label for="Email"></label><br>
+                <form id="contact-form">
+                    <div class="contact-content">
+                    <label for="name"></label>
+                    <input type="text" id="Name" Name="Name" value="Name"> 
+                    </div>
+                    <div class="contact-content">
+                    <label for="Email"></label>
                     <input  type="Email" id="Email" name="Email" value="Email">
-                    <label for="Phone Number"></label><br>
-                    <input  type="text" id="Phone Number" name="Phone Number" value="Phone Number"><br>
-                    <textarea></textarea>
-                    <label for="submit"></label><br>
-                    <input type="submit" id="submit" Name="submit" value="submit">
-
+                    </div>
+                    <div class="contact-content">
+                    <label for="Phone Number"></label>
+                    <input  type="text" id="Phone Number" name="Phone Number" value="Phone Number">
+                    </div>
+                    <textarea class="contact-content-text-area"></textarea>
+                    <div class="contact-content">
+                    <label for="Send"></label>
+                    <input type="submit" id="Send" Name="Send" value="Send">
+                    </div>
                 </form>
             </div>
         </section>
         <footer>
-        
+            <div class="container3">
+                <div id="logo footer">
+                    <img src="logo1.png"/> 
+                </div>
+                <div class="contact-us-footer" id="contact-us-footer">
+                    <h2>Contact us</h2>
+                    <a href="#" class="info-contact-social"><img src="icon-facebook.svg" alt="Ikona Facebook" /></a>
+                    <a href="#" class="info-contact-social"><img src="icon-instagram.svg" alt="Ikona Instagram" /></a>
+                    <a href="#" class="info-contact-social"><img src="icon-twitter.svg" alt="Ikona Twitter" /></a>
+                </div>
+                <div class="about-us-footer" id="about-us-footer">
+                    <h2>About us</h2>
+                    <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                </div>
+                <div class="newsletter-footer">
+                    <h2>Newsletter</h2>
+                    <label for="Email-footer"></label><br>
+                    <input  type="Email" id="Email-footer" name="Email-footer" value="Enter Your Email">
+                    <label for="Subscribe"></label><br>
+                    <input type="submit" id="Subscribe" Name="Subscribe" value="SUBSCRIBE">
+                </div>
+            </div>
         </footer>
     </body>
 </html>
