@@ -47,6 +47,28 @@ header{
     border-radius: 5px;
 }
 
+#main-background {
+    background-color: grey;
+    background-image: url("sprzet-komputerowy.jpg");
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 0px;
+    width: auto;
+    height: 500px;
+    background-position: center;
+    background-size: 80% 80%;
+}
+
+/* #main-background img {
+    border-style: solid;
+    border-color: aquamarine;
+} */
+
+
+
 #article {
     background-color: grey;
     padding: 10px;
@@ -57,7 +79,6 @@ header{
     border-top-width: 0px;
     width: auto;
     height: auto;
-
 }
 
 footer {
